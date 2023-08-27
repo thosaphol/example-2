@@ -1,6 +1,6 @@
 package com.example.springcourse.repository;
 
-import com.example.springcourse.entity.PersonEntity;
+
 import com.example.springcourse.entity.ProfileEntity;
 import org.springframework.data.repository.CrudRepository;
 

@@ -2,7 +2,6 @@ package com.example.springcourse.service;
 
 
 import com.example.springcourse.entity.ProfileEntity;
-import com.example.springcourse.repository.PersonRepository;
 import com.example.springcourse.repository.ProfileRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
