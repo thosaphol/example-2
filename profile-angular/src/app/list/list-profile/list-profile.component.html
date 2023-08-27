@@ -1,0 +1,23 @@
+<p>list-profile works!</p>
+<div>
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>ชื่อ</th>
+                <th>นามสกุล</th>
+                <th>เบอร์โทร</th>
+                <th>ดำเนินการ</th>
+            </tr>
+        </thead>
+        <tbody *ngFor="let profile of profileList; let i = index">
+            <tr>
+                <td>{{i+1}}</td>
+                <td>{{profile.firstName}}</td>
+                <td>{{profile.lastName}}</td>
+                <td>{{profile.phone}}</td>
+            </tr>
+            
+        </tbody>
+    </table>
+</div>
